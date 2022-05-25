@@ -1,0 +1,335 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #73c1c6;
+    margin: 0;
+}
+
+#header-background {
+    width: 100%;
+    background: url("images/Background.jpeg");
+}
+
+.logo {
+    text-align: center;
+    height: 100px;
+    position: relative;
+    opacity: 1.0;
+}
+
+.navigation-bar {
+    margin-top: 10px;
+    background-color: #FDAA02;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+}
+
+nav div {
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+nav a {
+    color: #0D0D0D;
+    text-decoration:none;
+}
+
+.BronnenVermelding a{
+    color: blue;
+    text-decoration: underline;
+}
+
+#Inleiding, #Hoe\ speel\ je\ het, #Prijs, #Vragen, #Over\ ons, #Bronnen {
+    padding: 20px;
+    background-color: #73c1c6;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.row {
+    margin: 5px;
+    column-count: 2;
+    background-color: #B4D9B6;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+body p {
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.column-img {
+    text-align: right;
+}
+
+.inleiding-picture {
+    width: 90%;
+    height: 460px;
+}
+
+@media (max-width: 1260px) {
+    .logo {
+        text-align: center;
+        height: 90px;
+        position: relative;
+        opacity: 1.0;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    body p {
+        padding: 20px;
+        text-align: left;
+        line-height: 24px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 976px) {
+    .logo {
+        text-align: center;
+        height: 90px;
+        position: relative;
+        opacity: 1.0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .inleiding-picture {
+        width: 90%;
+        height: 500px;
+    }
+
+    body p {
+        padding: 20px;
+        text-align: left;
+        font-size: small;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo {
+        text-align: center;
+        height: 70px;
+        position: relative;
+        opacity: 1.0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    body p {
+        padding: 20px;
+        text-align: left;
+        line-height: 20px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 682px) {
+    .logo {
+        text-align: center;
+        height: 70px;
+        position: relative;
+        opacity: 1.0;
+    }
+
+    .navigation-bar {
+        margin-top: 10px;
+        background-color: #FDAA02;
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        font-family: 'Exo 2', sans-serif;
+        font-size: small;
+        padding: 1em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    body p {
+        padding: 15px;
+        text-align: left;
+        line-height: 20px;
+        font-size: smaller;
+    }
+
+    .row {
+        margin: 5px;
+        column-count: 1;
+        background-color: #B4D9B6;
+    }
+
+    .column-img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .column-text-boven {
+        margin-bottom: 20px;
+    }
+
+    .column-foto-eerst{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 553px) {
+    .logo {
+        text-align: center;
+        /*margin-left: 20px;*/
+        height: 70px;
+        position: relative;
+        opacity: 1.0;
+    }
+
+    .navigation-bar {
+        margin-top: 10px;
+        background-color: #FDAA02;
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        font-family: 'Exo 2', sans-serif;
+        font-size: x-small;
+        padding: 1em;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    body p {
+        padding: 15px;
+        text-align: left;
+        line-height: 20px;
+        font-size: smaller;
+    }
+
+    .row {
+        margin: 5px;
+        column-count: 1;
+        background-color: #B4D9B6;
+    }
+
+    .column-img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .column-text-boven {
+        margin-bottom: 20px;
+    }
+
+    .column-foto-eerst{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    #header-background {
+        width: 100%;
+        background: url("images/Background.jpeg");
+    }
+
+    .logo {
+        text-align: left;
+        height: 70px;
+        position: relative;
+        opacity: 1.0;
+        max-width: 100%;
+    }
+
+    .navigation-bar {
+        margin-top: 10px;
+        background-color: #FDAA02;
+        text-align: left;
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        font-family: 'Exo 2', sans-serif;
+        font-size: xx-small;
+        padding: 1em;
+        max-width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    body p {
+        padding: 15px;
+        text-align: left;
+        line-height: 20px;
+        font-size: smaller;
+        max-width: 100%;
+    }
+
+    .row {
+        margin: 5px;
+        column-count: 1;
+        background-color: #B4D9B6;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    #Inleiding, #Hoe\ speel\ je\ het, #Prijs, #Vragen, #Over\ ons, #Bronnen {
+        padding: 20px;
+        margin: 0;
+        background-color: #73c1c6;
+        font-family: 'Exo 2', sans-serif;
+        max-width: 100%;
+    }
+
+    .column-img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .column-text-boven {
+        margin-bottom: 20px;
+    }
+
+    .column-foto-eerst{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
